@@ -24,7 +24,6 @@ public class Data {
   }
   
   
-  
   private static String device_id_first  = "4b893152317ebb55bdeefa238b1db9fff0d77d825b841947d05486727f451227";
   private static String device_id_second = "207e2c464c496fe1bc0869554dbb6b414bcf67d22924bf5bee752628032ea7f9";
 
@@ -69,7 +68,7 @@ public class Data {
 
   public static void parser(ArrayList<Data> data_list_first, ArrayList<Data> data_list_second) {
 
-    File f = new File("/Users/meandmyself/Desktop/hackatron/devicedata");
+    File f = new File("../../resource");
     long time = start_timer();
     File[] files = f.listFiles();
     try {
